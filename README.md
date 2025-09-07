@@ -4,4 +4,4 @@ Baseado no vídeo: https://youtu.be/r9buAwVBDhA?si=1FEkiSVZjEMCwbdH
 
 ## Artes:
 
-Arrtes autorias criadas com o software GIMP.
+Artes autorias criadas com o software GIMP, inspiradas no jogo soul knight.
