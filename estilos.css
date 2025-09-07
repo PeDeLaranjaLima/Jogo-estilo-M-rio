@@ -1,0 +1,61 @@
+/* Reset padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Parte referente a tela do jogo */
+.game-board{
+   /* width: 100%;*/
+    height: 500px;
+    border-bottom: 15px solid #7a2a45;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#290449, #8f2dcc);
+}
+
+.pipe {
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    animation: pipe-animation 1.5s infinite linear;
+}
+
+.personagem {
+    position: absolute;
+    bottom: 0;
+    width: 150px;
+}
+
+.jump{
+    animation: jump-personagem-animation 500ms ease-out;
+}
+
+@keyframes pipe-animation {
+    from {
+        right: -100px;
+    }
+    to{
+        right: 100%;
+    }
+}
+
+@keyframes jump-personagem-animation {
+    0% {
+        bottom: 0;
+    }
+    40% {
+        bottom: 180px;
+    }
+    50% {
+        bottom: 180px;
+    }
+    60% {
+        bottom: 180px;
+    }
+    100% {
+        bottom: 0%;
+    }
+}
